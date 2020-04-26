@@ -1,0 +1,34 @@
+.drum-pad {
+    width: 100px;
+    height: 25px;
+    border: solid 2px rgb(112, 84, 6);
+    word-wrap: break-word;
+    position: relative;
+}
+
+.drum-pad:hover {
+    border: solid 2px rgb(167, 167, 23);
+}
+
+#display {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: brown;
+    position: relative;
+    text-align: center;
+    width: 560px;
+  }
+  
+  #display > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    box-shadow: 5px 5px;
+  }
+
+  

@@ -1,0 +1,50 @@
+body {
+  background-image: url('https://www.bethelwoodscenter.org/sites/default/files/styles/1280x720/public/2019-06/poison-concert-bethel-woods_0.jpg?itok=OujF3O8G')
+}
+
+.App {
+  text-align: center;
+}
+
+.drum-pad:hover {
+  border: solid 2px rgb(212, 255, 0);
+  background-color: rgb(179, 255, 255, 0.7);
+}
+
+#drum-machine {
+  grid-gap: 10px;
+  padding: 10px;
+  margin-left: 25vw;
+  margin-top: 50px;
+  background-color: black;
+  width: 45vw;
+  height: 80vh;
+  text-align: center;
+}
+
+h1 {
+  border: solid 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+}
+
+.drum-pad {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+  box-shadow: 5px 5px;
+  color: black;
+  border: solid 2px rgb(112, 84, 6);
+  width: 12vw;
+  height: 10vh;
+  margin: 1vh;
+}
+
+#display {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+
